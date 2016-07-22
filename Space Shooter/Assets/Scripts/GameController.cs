@@ -39,9 +39,9 @@ public class GameController : MonoBehaviour {
 		Input.gyro.enabled = true;
 		this.gameOverText.text = "";
 		this.resetText.text = "";
-//		StartCoroutine(this.SpawnHazardWaves ());
-//		StartCoroutine (this.SpawnEnemys ());
-//		StartCoroutine (this.SpawnItem ());
+		StartCoroutine(this.SpawnHazardWaves ());
+		StartCoroutine (this.SpawnEnemys ());
+		StartCoroutine (this.SpawnItem ());
 	}
 
 	void Update(){

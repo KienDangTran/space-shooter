@@ -99,8 +99,8 @@ public class PlayerController : MonoBehaviour
 
 	private void ActiveShield ()
 	{
-//		shield.gameObject.SetActive (this.isGotShield);
-		shield.gameObject.SetActive (true);
+		shield.gameObject.SetActive (this.isGotShield);
+//		shield.gameObject.SetActive (true);
 	}
 
 	private void DecreaseItemDuration ()
